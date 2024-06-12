@@ -1,16 +1,566 @@
 <!doctype html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/styles.css" rel="stylesheet" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+      integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
+  <body id="element-to-print" class="bg-gray-100 text-sm">
+    <div class="container mx-auto my-4 max-w-5xl px-6">
+      <div class="grid grid-cols-3 gap-4">
+        <!-- SIDEBAR -->
+        <div class="space-y-4">
+          <!-- USER -->
+          <div class="overflow-hidden rounded-xl bg-white">
+            <div class="relative aspect-video">
+              <img class="aspect-3/2" src="./imgs/cover-1.jpg" alt="" />
+              <div
+                class="absolute bottom-0 left-0 right-0 top-0 flex size-full items-end bg-gradient-to-t from-white p-4"
+              >
+                <img
+                  class="size-20 rounded-full border-2 border-white"
+                  src="./imgs/photo-1.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="space-y-4 p-1.5">
+              <div class="px-4">
+                <h3 class="flex items-center gap-2 text-base font-medium">
+                  Ung Quốc Bình
+                  <div
+                    class="mt-1 flex-none animate-pulse rounded-full bg-emerald-500/20 p-1"
+                  >
+                    <div class="size-1.5 rounded-full bg-emerald-500"></div>
+                  </div>
+                </h3>
+                <p>Full Stack Developer</p>
+              </div>
+              <div class="space-y-4 rounded-md bg-gray-50 p-4">
+                <p class="text-gray-600">
+                  Full-stack developer with 8+ years of experience in building
+                  web apps. Skilled in React, Node.js, Python, and SQL.
+                </p>
+                <div
+                  class="flex flex-wrap gap-2 text-xs font-medium text-gray-600"
+                >
+                  <span class="items-center rounded bg-gray-200 px-2 py-1"
+                    >Laravel</span
+                  >
+                  <span class="items-center rounded bg-gray-200 px-2 py-1"
+                    >Percona Server for MySQL</span
+                  >
+                  <span class="items-center rounded bg-gray-200 px-2 py-1"
+                    >Vue 3</span
+                  >
+                  <span class="items-center rounded bg-gray-200 px-2 py-1"
+                    >Tailwind CSS</span
+                  >
+                  <span class="items-center rounded bg-gray-200 px-2 py-1"
+                    >Filament</span
+                  >
+                  <span class="items-center rounded bg-gray-200 px-2 py-1"
+                    >Javascript</span
+                  >
+                  <span class="items-center rounded bg-gray-200 px-2 py-1"
+                    >Github</span
+                  >
+                </div>
+                <button
+                  class="inline-flex w-full items-center justify-center gap-4 rounded-md bg-blue-600 px-4 py-2.5 font-medium text-white hover:bg-blue-700"
+                >
+                  Download CV
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    class="size-4"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M13 10h5l-6 6l-6-6h5V3h2zm-9 9h16v-7h2v8a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-8h2z"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- // USER -->
+          <!-- ABOUT -->
+          <div class="rounded-xl bg-white p-1.5">
+            <h2
+              class="before: flex items-center gap-2.5 px-4 pt-2.5 text-base font-medium before:size-1.5 before:rounded-full before:bg-blue-600"
+            >
+              About me
+            </h2>
+            <div class="mt-4 space-y-4 rounded-md bg-gray-50 p-4">
+              <div class="text-sm text-gray-600">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Dignissimos veritatis, quod consequuntur at sapiente
+                  perferendis ducimus praesentium, quidem facilis quisquam quas
+                  dolor ab tempore illo dolorum vero eius, nulla cupiditate?
+                </p>
+              </div>
+              <hr class="border-200" />
+              <div class="flex flex-wrap gap-4 font-medium">
+                <a href="/" class="inline-flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418"
+                    />
+                  </svg>
+                  binhuq.github.io
+                </a>
+                <a
+                  href="mailto:binhuq@gmail.com"
+                  class="inline-flex items-center gap-2"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+                    />
+                  </svg>
+                  binhuq@gmail.com
+                </a>
+                <a href="tel:0984246763" class="inline-flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+                    />
+                  </svg>
 
-<body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
-</body>
+                  098.424.6763
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- // ABOUT -->
+          <!-- INFORMATION -->
+          <div class="rounded-xl bg-white p-1.5">
+            <h2
+              class="before: flex items-center gap-2.5 px-4 pt-2.5 text-base font-medium before:size-1.5 before:rounded-full before:bg-blue-600"
+            >
+              Infomation
+            </h2>
+            <div class="mt-4 space-y-4 rounded-md bg-gray-50 p-4">
+              <div class="text-sm text-gray-600">
+                <ul class="-my-2.5 divide-y">
+                  <li class="5 flex justify-between gap-4 py-2">
+                    <span class="text-gray-600">Location</span>
+                    <span>Dĩ An, Bình Dương</span>
+                  </li>
+                  <li class="5 flex justify-between gap-4 py-2">
+                    <span class="text-gray-600">Experience</span>
+                    <span>>10 years</span>
+                  </li>
+                  <li class="5 flex justify-between gap-4 py-2">
+                    <span class="text-gray-600">Availability</span>
+                    <span>In 1 month</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- //INFORMATION -->
+        </div>
+        <!-- // SIDEBAR -->
+        <div class="col-span-2">
+          <main class="space-y-4">
+            <!-- EXPERIENCE -->
+            <div class="rounded-xl bg-white p-1.5">
+              <h2
+                class="before: flex items-center gap-2.5 px-4 pt-2.5 text-base font-medium before:size-1.5 before:rounded-full before:bg-blue-600"
+              >
+                Experience
+              </h2>
+              <div class="mt-4 space-y-1.5">
+                <div
+                  class="rounded-md bg-gray-50 p-4 duration-150 hover:bg-gray-100"
+                >
+                  <div class="flex flex-col gap-4 sm:flex-row">
+                    <!-- <img
+                      src="./imgs/google.jpg"
+                      alt=""
+                      class="size-12 rounded-full border-2 border-white shadow-sm"
+                    /> -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="size-12 rounded-full border-2 border-white shadow-sm"
+                      viewBox="0 0 65 67"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_127_297)">
+                        <rect width="65" height="67" fill="white" />
+                        <path
+                          d="M44.2648 35.5396C44.3207 36.1543 44.3766 36.769 44.3766 37.3837C44.3766 45.7098 37.6139 52.4712 29.2863 52.4712C20.9587 52.4712 14.196 45.7098 14.196 37.3837C14.196 29.0576 20.9587 22.2961 29.2863 22.2961C29.7893 22.2961 30.3482 22.2961 30.8512 22.352V22.2402C31.466 22.4078 32.0808 22.5196 32.7515 22.5196C36.552 22.5196 39.6819 19.3903 39.6819 15.5905C39.6819 11.7907 36.552 8.66139 32.7515 8.66139C32.5838 8.66139 32.4162 8.66139 32.3044 8.66139L32.3603 8.54963C31.3543 8.43787 30.3482 8.38199 29.3422 8.38199C13.1341 8.43787 0 21.5696 0 37.7189C0 53.8682 13.1341 67 29.2863 67C45.4385 67 58.5727 53.8682 58.5727 37.7189C58.5727 35.8749 58.405 34.0309 58.0696 32.2986H58.0138C57.6784 28.7223 54.6604 25.9283 50.9716 25.9283C47.0593 25.9283 43.9295 29.1134 43.9295 32.9691C43.9295 33.8073 43.9295 34.5897 44.2089 35.372L44.2648 35.5396Z"
+                          fill="#EA3223"
+                        />
+                        <path
+                          d="M54.3252 0C48.4009 0 43.5944 4.80567 43.5944 10.7289C43.5944 12.0142 43.8179 13.2435 44.2091 14.3611C44.3209 14.9199 44.3768 15.5346 44.3768 16.0934C44.3768 22.1843 39.4585 27.1576 33.3106 27.1576C32.8635 27.1576 32.4164 27.1018 31.9693 27.0459C31.1309 26.8224 30.1808 26.7106 29.2865 26.7106C23.3622 26.7106 18.5557 31.5163 18.5557 37.4395C18.5557 43.3628 23.3622 48.1685 29.2865 48.1685C35.2109 48.1685 40.0174 43.3628 40.0174 37.4395C40.0174 36.4337 39.8497 35.4279 39.6262 34.4779H39.6821C39.5144 33.6956 39.4026 32.9133 39.4026 32.0751C39.4026 25.9842 44.3209 21.0108 50.4688 21.0108C51.0277 21.0108 51.5307 21.0667 52.0337 21.1226C52.7603 21.2902 53.5428 21.402 54.3252 21.402C60.2496 21.402 65.0561 16.5963 65.0561 10.6731C65.0561 4.74979 60.2496 0 54.3252 0Z"
+                          fill="#EA3223"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_127_297">
+                          <rect width="65" height="67" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <div class="w-full">
+                      <div
+                        class="flex flex-wrap items-center justify-between gap-2"
+                      >
+                        <h3 class="font-medium">Full-time Software Engineer</h3>
+                        <span
+                          class="inline-flex items-center rounded bg-gray-200 px-2 py-1 text-xs font-medium text-gray-600"
+                          >Full-time</span
+                        >
+                      </div>
+                      <div
+                        class="mt-1.5 flex flex-wrap items-center gap-x-4 gap-y-2 text-gray-600"
+                      >
+                        <div class="flex flex-wrap gap-x-1.5">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            class="size-3.5"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M7 5V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zM4 16v3h16v-3zm0-2h16V7H4zM9 3v2h6V3zm2 8h2v2h-2z"
+                            ></path>
+                          </svg>
+                          <span class="text-xs font-medium">Myaloha</span>
+                        </div>
+                        <div class="flex flex-wrap gap-x-1.5">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            class="size-3.5"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="m12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0zm4.95-7.778a7 7 0 1 0-9.9 0L12 20.9zM12 13a2 2 0 1 1 0-4a2 2 0 0 1 0 4"
+                            ></path>
+                          </svg>
+                          <span class="text-xs font-medium"
+                            >Thủ Đức, Tp. Hồ Chí Minh</span
+                          >
+                        </div>
+                        <div class="flex flex-wrap gap-x-1.5">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            class="size-3.5"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M9 1v2h6V1h2v2h4a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4V1zm11 10H4v8h16zm-9 2v4H6v-4zM7 5H4v4h16V5h-3v2h-2V5H9v2H7z"
+                            ></path>
+                          </svg>
+                          <span class="text-xs font-medium"
+                            >Mar 2018 - April 2024</span
+                          >
+                        </div>
+                      </div>
+                      <p class="mt-4 max-w-lg text-gray-600">
+                        Developed and maintained web applications using React,
+                        Node.js, and Python. Worked with a team of engineers to
+                        deliver high-quality software on time and within budget.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="rounded-md bg-gray-50 p-4 duration-150 hover:bg-gray-100"
+                >
+                  <div class="flex flex-col gap-4 sm:flex-row">
+                    <img
+                      src="./imgs/ideastech.png"
+                      alt=""
+                      class="size-12 rounded-full border-2 border-white shadow-sm"
+                    />
+                    <div class="w-full">
+                      <div
+                        class="flex flex-wrap items-center justify-between gap-2"
+                      >
+                        <h3 class="font-medium">Full-time Software Engineer</h3>
+                        <span
+                          class="inline-flex items-center rounded bg-gray-200 px-2 py-1 text-xs font-medium text-gray-600"
+                          >Full-time</span
+                        >
+                      </div>
+                      <div
+                        class="mt-1.5 flex flex-wrap items-center gap-x-4 gap-y-2 text-gray-600"
+                      >
+                        <div class="flex flex-wrap gap-x-1.5">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            class="size-3.5"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M7 5V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zM4 16v3h16v-3zm0-2h16V7H4zM9 3v2h6V3zm2 8h2v2h-2z"
+                            ></path>
+                          </svg>
+                          <span class="text-xs font-medium">Ideastech</span>
+                        </div>
+                        <div class="flex flex-wrap gap-x-1.5">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            class="size-3.5"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="m12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0zm4.95-7.778a7 7 0 1 0-9.9 0L12 20.9zM12 13a2 2 0 1 1 0-4a2 2 0 0 1 0 4"
+                            ></path>
+                          </svg>
+                          <span class="text-xs font-medium"
+                            >Dĩ An, Bình Dương</span
+                          >
+                        </div>
+                        <div class="flex flex-wrap gap-x-1.5">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            class="size-3.5"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M9 1v2h6V1h2v2h4a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4V1zm11 10H4v8h16zm-9 2v4H6v-4zM7 5H4v4h16V5h-3v2h-2V5H9v2H7z"
+                            ></path>
+                          </svg>
+                          <span class="text-xs font-medium"
+                            >April 2016 - January 2018</span
+                          >
+                        </div>
+                      </div>
+                      <p class="mt-4 max-w-lg text-gray-600">
+                        Developed and maintained web applications using React,
+                        Node.js, and Python. Worked with a team of engineers to
+                        deliver high-quality software on time and within budget.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="rounded-md bg-gray-50 p-4 duration-150 hover:bg-gray-100"
+                >
+                  <div class="flex flex-col gap-4 sm:flex-row">
+                    <!-- <img
+                      src="./imgs/google.jpg"
+                      alt=""
+                      class="size-12 rounded-full border-2 border-white shadow-sm"
+                    /> -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="-0.23 0 97.266 72.333"
+                      class="size-12"
+                    >
+                      <path
+                        d="M56.897 0l6.624 9.29L97.036 0M22.075 72.333l18.13-17.725-10.912-11.71M54.152 0l-9.69 8.738 16.298.608M16.482 0l3.48 7.133 19.18 1.195M26.75 36.986l14.17-26.434L-.23 8.328M28.4 38.662L41.785 53.04 56.55 38.567l4.582-26.957-17.993-.918"
+                        fill="#29b2fe"
+                      />
+                    </svg>
+                    <div class="w-full">
+                      <div
+                        class="flex flex-wrap items-center justify-between gap-2"
+                      >
+                        <h3 class="font-medium">Freelance</h3>
+                        <!-- <span
+                          class="inline-flex items-center rounded bg-gray-200 px-2 py-1 text-xs font-medium text-gray-600"
+                          >Full-time</span
+                        > -->
+                      </div>
+                      <div
+                        class="mt-1.5 flex flex-wrap items-center gap-x-4 gap-y-2 text-gray-600"
+                      >
+                        <div class="flex flex-wrap gap-x-1.5">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            class="size-3.5"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M7 5V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zM4 16v3h16v-3zm0-2h16V7H4zM9 3v2h6V3zm2 8h2v2h-2z"
+                            ></path>
+                          </svg>
+                          <span class="text-xs font-medium">Myaloha</span>
+                        </div>
+                        <div class="flex flex-wrap gap-x-1.5">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            class="size-3.5"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="m12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0zm4.95-7.778a7 7 0 1 0-9.9 0L12 20.9zM12 13a2 2 0 1 1 0-4a2 2 0 0 1 0 4"
+                            ></path>
+                          </svg>
+                          <span class="text-xs font-medium"
+                            >Thủ Đức, Tp. Hồ Chí Minh</span
+                          >
+                        </div>
+                        <div class="flex flex-wrap gap-x-1.5">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            class="size-3.5"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M9 1v2h6V1h2v2h4a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4V1zm11 10H4v8h16zm-9 2v4H6v-4zM7 5H4v4h16V5h-3v2h-2V5H9v2H7z"
+                            ></path>
+                          </svg>
+                          <span class="text-xs font-medium"
+                            > 2014 - 2016</span
+                          >
+                        </div>
+                      </div>
+                      <p class="mt-4 max-w-lg text-gray-600">
+                        Developed and maintained web applications using React,
+                        Node.js, and Python. Worked with a team of engineers to
+                        deliver high-quality software on time and within budget.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- // EXPERIENCE -->
+            <!-- EDUCATION -->
+            <div class="rounded-xl bg-white p-1.5">
+              <h2
+                class="before: flex items-center gap-2.5 px-4 pt-2.5 text-base font-medium before:size-1.5 before:rounded-full before:bg-blue-600"
+              >
+                Education
+              </h2>
+              <div class="mt-4 space-y-1.5">
+                <div
+                  class="rounded-md bg-gray-50 p-4 duration-150 hover:bg-gray-100"
+                >
+                  <div class="flex flex-col gap-4 sm:flex-row">
+                    <img
+                      src="./imgs/uit.png"
+                      alt=""
+                      class="size-12 rounded-full border-2 border-white shadow-sm"
+                    />
+                    <div class="w-full">
+                      <div
+                        class="flex flex-wrap items-center justify-between gap-2"
+                      >
+                        <h3 class="font-medium">
+                          Bachelor of Enginerring in Information Systems
+                        </h3>
+                        <!-- <span
+                          class="inline-flex items-center rounded bg-gray-200 px-2 py-1 text-xs font-medium text-gray-600"
+                          >Full-time</span
+                        > -->
+                      </div>
+                      <div
+                        class="mt-1.5 flex flex-wrap items-center gap-x-4 gap-y-2 text-gray-600"
+                      >
+                        <div class="flex flex-wrap gap-x-1.5">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            class="size-3.5"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M4 11.333L0 9l12-7l12 7v8.5h-2v-7.333l-2 1.166v6.678l-.223.275A9.983 9.983 0 0 1 12 22a9.983 9.983 0 0 1-7.777-3.714L4 18.011zM6 12.5v4.792A7.979 7.979 0 0 0 12 20a7.978 7.978 0 0 0 6-2.708V12.5L12 16zM3.97 9L12 13.685L20.03 9L12 4.315z"
+                            ></path>
+                          </svg>
+                          <span class="text-xs font-medium">UIT</span>
+                        </div>
+                        <div class="flex flex-wrap gap-x-1.5">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            class="size-3.5"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="m12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0zm4.95-7.778a7 7 0 1 0-9.9 0L12 20.9zM12 13a2 2 0 1 1 0-4a2 2 0 0 1 0 4"
+                            ></path>
+                          </svg>
+                          <span class="text-xs font-medium"></span>
+                            Vietnam National University, Ho Chi Minh City
+                          </span>
+                        </div>
+                        <div class="flex flex-wrap gap-x-1.5">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            class="size-3.5"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M9 1v2h6V1h2v2h4a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4V1zm11 10H4v8h16zm-9 2v4H6v-4zM7 5H4v4h16V5h-3v2h-2V5H9v2H7z"
+                            ></path>
+                          </svg>
+                          <span class="text-xs font-medium"
+                            > 2008 - 2013</span
+                          >
+                        </div>
+                      </div>
+                      <p class="mt-4 max-w-lg text-gray-600">
+                        Developed and maintained web applications using React,
+                        Node.js, and Python. Worked with a team of engineers to
+                        deliver high-quality software on time and within budget.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- // EDUCATION -->
+          </main>
+        </div>
+      </div>
+    </div>
+  </body>
 
+  <script>
+    // var element = document.getElementById("element-to-print");
+    // html2pdf(element);
+  </script>
 </html>
