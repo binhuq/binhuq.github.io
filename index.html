@@ -3,17 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./src/styles.css" rel="stylesheet" />
+
+    <link href="./src/styles.css?v=1" rel="stylesheet" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
-      integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+      src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"
+      integrity="sha512-YcsIPGdhPK4P/uRW6/sruonlYj+Q7UHWeKfTAkBW+g83NKM+jMJFJ4iAPfSnVp7BKD4dKMHmVSvICUbE/V1sSw=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
   </head>
 
-  <body id="element-to-print" class="bg-gray-100 text-sm">
-    <div class="container mx-auto my-4 max-w-xl px-6 lg:max-w-5xl">
+  <body id="print-section" class="bg-gray-100 text-sm">
+    <div class="container mx-auto max-w-xl px-6 py-4 lg:max-w-5xl">
       <div class="grid grid-cols-1 gap-4 lg:grid-cols-3">
         <!-- SIDEBAR -->
         <div class="space-y-4">
@@ -45,8 +52,8 @@
               </div>
               <div class="space-y-4 rounded-md bg-gray-50 p-4">
                 <p class="text-gray-600">
-                  Full-stack developer with 8+ years of experience in building
-                  web apps. Skilled in React, Node.js, Python, and SQL.
+                  Full-stack developer with 10+ years of experience in building
+                  web apps. Skilled in Laravel, Ubuntu, Mysql, and TailwindCSS.
                 </p>
                 <div
                   class="flex flex-wrap gap-2 text-xs font-medium text-gray-600"
@@ -67,6 +74,9 @@
                     >Filament</span
                   >
                   <span class="items-center rounded bg-gray-200 px-2 py-1"
+                    >Ubuntu</span
+                  >
+                  <span class="items-center rounded bg-gray-200 px-2 py-1"
                     >Javascript</span
                   >
                   <span class="items-center rounded bg-gray-200 px-2 py-1"
@@ -74,6 +84,7 @@
                   >
                 </div>
                 <button
+                  id="download-cv"
                   class="inline-flex w-full items-center justify-center gap-4 rounded-md bg-blue-600 px-4 py-2.5 font-medium text-white hover:bg-blue-700"
                 >
                   Download CV
@@ -81,6 +92,8 @@
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     class="size-4"
+                    height="16"
+                    width="16"
                   >
                     <path
                       fill="currentColor"
@@ -118,6 +131,8 @@
                     stroke-width="1.5"
                     stroke="currentColor"
                     class="size-4"
+                    height="16"
+                    width="16"
                   >
                     <path
                       stroke-linecap="round"
@@ -125,7 +140,7 @@
                       d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418"
                     />
                   </svg>
-                  binhuq.github.io
+                  binhuq.shopviet.tech
                 </a>
                 <a
                   href="mailto:binhuq@gmail.com"
@@ -138,6 +153,8 @@
                     stroke-width="1.5"
                     stroke="currentColor"
                     class="size-4"
+                    height="16"
+                    width="16"
                   >
                     <path
                       stroke-linecap="round"
@@ -155,6 +172,8 @@
                     stroke-width="1.5"
                     stroke="currentColor"
                     class="size-4"
+                    height="16"
+                    width="16"
                   >
                     <path
                       stroke-linecap="round"
@@ -174,7 +193,7 @@
             <h2
               class="before: flex items-center gap-2.5 px-4 pt-2.5 text-base font-medium before:size-1.5 before:rounded-full before:bg-blue-600"
             >
-              Infomation
+              Infor`mation
             </h2>
             <div class="mt-4 space-y-4 rounded-md bg-gray-50 p-4">
               <div class="text-sm text-gray-600">
@@ -222,6 +241,8 @@
                       class="size-12 rounded-full border-2 border-white shadow-sm"
                       viewBox="0 0 65 67"
                       fill="none"
+                      height="48"
+                      width="48"
                     >
                       <g clip-path="url(#clip0_127_297)">
                         <rect width="65" height="67" fill="white" />
@@ -244,7 +265,7 @@
                       <div
                         class="flex flex-wrap items-center justify-between gap-2"
                       >
-                        <h3 class="font-medium">Full-time Software Engineer</h3>
+                        <h3 class="font-medium">Tech Lead</h3>
                         <span
                           class="inline-flex items-center rounded bg-gray-200 px-2 py-1 text-xs font-medium text-gray-600"
                           >Full-time</span
@@ -258,6 +279,8 @@
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             class="size-3.5"
+                            height="14"
+                            width="14"
                           >
                             <path
                               fill="currentColor"
@@ -271,6 +294,8 @@
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             class="size-3.5"
+                            height="14"
+                            width="14"
                           >
                             <path
                               fill="currentColor"
@@ -286,6 +311,8 @@
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             class="size-3.5"
+                            height="14"
+                            width="14"
                           >
                             <path
                               fill="currentColor"
@@ -293,15 +320,192 @@
                             ></path>
                           </svg>
                           <span class="text-xs font-medium"
-                            >Mar 2018 - April 2024</span
+                            >March 2018 - April 2024</span
                           >
                         </div>
                       </div>
                       <p class="mt-4 max-w-lg text-gray-600">
-                        Developed and maintained web applications using React,
-                        Node.js, and Python. Worked with a team of engineers to
-                        deliver high-quality software on time and within budget.
+                        Developed and maintained web applications using Laravel,
+                        Filament, TailwindCSS and Vue 3.
                       </p>
+                      <hr class="border-200 my-4" />
+                      <div class="space-y-4">
+                        <div class="flex flex-wrap items-center gap-2">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="size-3.5"
+                            height="14"
+                            width="14"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="M2.25 12.75V12A2.25 2.25 0 0 1 4.5 9.75h15A2.25 2.25 0 0 1 21.75 12v.75m-8.69-6.44-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z"
+                            />
+                          </svg>
+                          <h2 class="text-base font-medium">Project</h2>
+                        </div>
+                        <div>
+                          <a
+                            href="https://congbao.binhduong.gov.vn/"
+                            class="font-medium"
+                            >Congbao.binhduong.gov.vn</a
+                          >
+                          <ul
+                            class="ml-4 mt-1.5 max-w-lg list-disc text-gray-600"
+                          >
+                            <li>
+                              Split uploaded gazettes for view and download base
+                              on pages range using FPDI
+                            </li>
+                            <li>
+                              Add interactive to client to select published
+                              gazettes by month and year using alpinejs
+                            </li>
+                            <li>
+                              Add search and filter box using
+                              laravel-query-builder
+                            </li>
+                          </ul>
+                        </div>
+                        <div>
+                          <div class="flex flex-col flex-wrap gap-2">
+                            <a
+                              href="https://bencat.binhduong.gov.vn/"
+                              class="font-medium"
+                              >Bencat.binhduong.gov.vn</a
+                            >
+                            <a
+                              href="https://tanuyen.binhduong.gov.vn/"
+                              class="font-medium"
+                              >Tanuyen.binhduong.gov.vn</a
+                            >
+                            <a
+                              href="https://bactanuyen.binhduong.gov.vn/"
+                              class="font-medium"
+                              >Bactanuyen.binhduong.gov.vn</a
+                            >
+                          </div>
+                          <ul
+                            class="ml-4 mt-1.5 max-w-lg list-disc text-gray-600"
+                          >
+                            <li>
+                              New CMS for gorverment using Filament for
+                              dashboard with tenancy
+                            </li>
+                            <li>
+                              Multithemes with reuse components and layouts for
+                              each tenant
+                            </li>
+                            <li>Migrate old data form SQL Server to MySQL</li>
+                            <li>Crawl old assets and upload to S3</li>
+                            <li>
+                              Crawl news from
+                              <a href="https://binhduong.gov.vn"
+                                >binhduong.gov.vn</a
+                              >
+                              and statistic from
+                              <a
+                                href="http://thongkevanban.binhduong.gov.vn//widget/web/guest/hien-thi-thong-ke-van-ban/-/NSS_REPORT_DOCUMENT_VIEW_WAR_gwportlet"
+                                >thongkevanban.binhduong.gov.vn</a
+                              >
+                              for each tentants
+                            </li>
+                            <li>
+                              Integrate with Google Analytics for realtime and
+                              total active users
+                            </li>
+                            <li>Published approved articles to Zalo OA</li>
+                            <li>
+                              Design multitype article model with single table
+                              inheritance and
+                            </li>
+                            <li>Optimize images when upload</li>
+                            <li>Integrate reCAPTCHA</li>
+                          </ul>
+                        </div>
+                        <div>
+                          <a
+                            href="https://songoaivu.myaloha.vn/"
+                            class="font-medium"
+                            >Songoaivu.myaloha.vn</a
+                          >
+                          <ul
+                            class="ml-4 mt-1.5 max-w-lg list-disc text-gray-600"
+                          >
+                            <li>Export documents base on docx templates</li>
+                            <li>Export statictis base on excel templates</li>
+                            <li>
+                              Design documents models with single table
+                              inheritance
+                            </li>
+                          </ul>
+                        </div>
+                        <div>
+                          <a
+                            href="https://sangkien.congdoanvietnam.org/"
+                            class="font-medium"
+                            >Sangkien.congdoanvietnam.org</a
+                          >
+                          <ul
+                            class="ml-4 mt-1.5 max-w-lg list-disc text-gray-600"
+                          >
+                            <li>
+                              Validate Vietnamese ideas before submiting with
+                              exception some acronyms using php-spellchecker
+                            </li>
+                            <li>
+                              Add permission for organization to rating ideas
+                            </li>
+                            <li>
+                              Optimize and caching query for search and filter
+                              table for finding ideas in 1.7 milions records
+                            </li>
+                            <li>
+                              Display charts and statictis with Google Looker
+                              Studio
+                            </li>
+                          </ul>
+                        </div>
+                        <div>
+                          <a href="https://myaloha.vn/" class="font-medium"
+                            >Myaloha.vn</a
+                          >
+                          <ul
+                            class="ml-4 mt-1.5 max-w-lg list-disc text-gray-600"
+                          >
+                            <li>
+                              Upgrade the codebase from CodeIgniter 3 to Laravel
+                              8 with a new design using Bootstrap 5, Bootstrap
+                              Table, Jquery.
+                            </li>
+                            <li>
+                              Migrate schema design for contests and questions
+                              table from json column to new table
+                            </li>
+                            <li>
+                              Separate web server and database server. Moving
+                              from apache with mod-php to nginx with php-fpm and
+                              mysql to percona server for mysql.
+                            </li>
+                            <li>
+                              Add caching strategy schedule with redis, index
+                              and optimize top ranking by user queries using
+                              window funtion and tuning php-fpm pool to service
+                              10,000 users per 30 minute (GA4).
+                            </li>
+                            <li>
+                              Propose moving frontend from blade template to
+                              Inertiajs, Vue 3 and TailwindCSS for more
+                              interactive design with components.
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -332,6 +536,8 @@
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             class="size-3.5"
+                            height="14"
+                            width="14"
                           >
                             <path
                               fill="currentColor"
@@ -345,6 +551,8 @@
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             class="size-3.5"
+                            height="14"
+                            width="14"
                           >
                             <path
                               fill="currentColor"
@@ -360,6 +568,8 @@
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             class="size-3.5"
+                            height="14"
+                            width="14"
                           >
                             <path
                               fill="currentColor"
@@ -392,6 +602,8 @@
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="-0.23 0 97.266 72.333"
                       class="size-12"
+                      height="48"
+                      width="48"
                     >
                       <path
                         d="M56.897 0l6.624 9.29L97.036 0M22.075 72.333l18.13-17.725-10.912-11.71M54.152 0l-9.69 8.738 16.298.608M16.482 0l3.48 7.133 19.18 1.195M26.75 36.986l14.17-26.434L-.23 8.328M28.4 38.662L41.785 53.04 56.55 38.567l4.582-26.957-17.993-.918"
@@ -416,6 +628,8 @@
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             class="size-3.5"
+                            height="14"
+                            width="14"
                           >
                             <path
                               fill="currentColor"
@@ -429,6 +643,8 @@
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             class="size-3.5"
+                            height="14"
+                            width="14"
                           >
                             <path
                               fill="currentColor"
@@ -444,6 +660,8 @@
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             class="size-3.5"
+                            height="14"
+                            width="14"
                           >
                             <path
                               fill="currentColor"
@@ -486,7 +704,7 @@
                         class="flex flex-wrap items-center justify-between gap-2"
                       >
                         <h3 class="font-medium">
-                          Bachelor of Enginerring in Information Systems
+                          Bachelor of Engineering in Information Systems
                         </h3>
                         <!-- <span
                           class="inline-flex items-center rounded bg-gray-200 px-2 py-1 text-xs font-medium text-gray-600"
@@ -501,6 +719,8 @@
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             class="size-3.5"
+                            height="14"
+                            width="14"
                           >
                             <path
                               fill="currentColor"
@@ -514,6 +734,8 @@
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             class="size-3.5"
+                            height="14"
+                            width="14"
                           >
                             <path
                               fill="currentColor"
@@ -529,6 +751,8 @@
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             class="size-3.5"
+                            height="14"
+                            width="14"
                           >
                             <path
                               fill="currentColor"
@@ -538,11 +762,6 @@
                           <span class="text-xs font-medium"> 2008 - 2013</span>
                         </div>
                       </div>
-                      <p class="mt-4 max-w-lg text-gray-600">
-                        Developed and maintained web applications using React,
-                        Node.js, and Python. Worked with a team of engineers to
-                        deliver high-quality software on time and within budget.
-                      </p>
                     </div>
                   </div>
                 </div>
@@ -556,7 +775,21 @@
   </body>
 
   <script>
-    // var element = document.getElementById("element-to-print");
-    // html2pdf(element);
+    let downloadBtn = document.getElementById("download-cv");
+    let printSection = document.getElementById("print-section");
+    let { width, height } = document.body.getBoundingClientRect();
+
+    width = width > 1180 ? 1180 : width;
+    console.log(width);
+    let opt = {
+      // pagebreak: { mode: "avoid-all" },
+      jsPDF: { format: [width, height], unit: "px" },
+      filename: "CV.pdf",
+    };
+
+    downloadBtn.addEventListener("click", function () {
+      // console.log("abc");
+      html2pdf(printSection, opt);
+    });
   </script>
 </html>

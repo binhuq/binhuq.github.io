@@ -1,4 +1,3 @@
 {
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "files.autoSave": "onWindowChange"
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
