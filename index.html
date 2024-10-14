@@ -1,6 +1,21 @@
 <!doctype html>
 <html>
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-LGP40ZJ0DX"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-LGP40ZJ0DX");
+    </script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -121,9 +136,9 @@
               <div class="text-sm text-gray-600">
                 <p>
                   As a Full-stack Developer with 10 years of experience, I am
-                  proficient in Laravel, Ubuntu, and MySQL. I have successfully
-                  developed a large-scale web applications and have strong
-                  abilities in both independent and team-based work. I am
+                  proficient in Laravel, Filament, Ubuntu, and MySQL. I have
+                  successfully developed a large-scale web applications and have
+                  strong abilities in both independent and team-based work. I am
                   seeking a dynamic work environment where I can continue to
                   learn and contribute to innovative projects.
                 </p>
@@ -227,6 +242,87 @@
             </div>
           </div>
           <!-- //INFORMATION -->
+          <!-- EDUCATION -->
+          <div class="rounded-xl bg-white p-1.5">
+            <h2
+              class="before: flex items-center gap-2.5 px-4 pt-2.5 text-base font-medium before:size-1.5 before:rounded-full before:bg-blue-600"
+            >
+              Education
+            </h2>
+            <div class="mt-4 space-y-1.5">
+              <a
+                href="https://www.uit.edu.vn/tra-cuu/van-bang/72532/thong-tin"
+                class="block rounded-md bg-gray-50 p-4 duration-150 hover:bg-gray-100"
+              >
+                <div class="flex flex-col gap-4 sm:flex-row">
+                  <img
+                    src="./imgs/uit.png"
+                    alt=""
+                    class="size-12 rounded-full border-2 border-white shadow-sm"
+                  />
+                  <div class="flex w-full content-center items-center gap-2">
+                    <h3 class="font-medium">
+                      Bachelor of Engineering in Information Systems
+                    </h3>
+                    <!-- <span
+                          class="inline-flex items-center rounded bg-gray-200 px-2 py-1 text-xs font-medium text-gray-600"
+                          >Full-time</span
+                        > -->
+                  </div>
+                </div>
+                <div
+                  class="mt-1.5 flex flex-wrap items-center gap-x-4 gap-y-2 text-gray-600"
+                >
+                  <div class="flex flex-wrap gap-x-1.5">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      class="size-3.5"
+                      height="14"
+                      width="14"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M4 11.333L0 9l12-7l12 7v8.5h-2v-7.333l-2 1.166v6.678l-.223.275A9.983 9.983 0 0 1 12 22a9.983 9.983 0 0 1-7.777-3.714L4 18.011zM6 12.5v4.792A7.979 7.979 0 0 0 12 20a7.978 7.978 0 0 0 6-2.708V12.5L12 16zM3.97 9L12 13.685L20.03 9L12 4.315z"
+                      ></path>
+                    </svg>
+                    <span class="text-xs font-medium">UIT - VNU, HCM City</span>
+                  </div>
+                  <!-- <div class="flex gap-x-1.5">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      class="size-3.5"
+                      height="14"
+                      width="14"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="m12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0zm4.95-7.778a7 7 0 1 0-9.9 0L12 20.9zM12 13a2 2 0 1 1 0-4a2 2 0 0 1 0 4"
+                      ></path>
+                    </svg>
+                    <span class="text-xs font-medium"> </span>
+                  </div> -->
+                  <div class="flex flex-wrap gap-x-1.5">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      class="size-3.5"
+                      height="14"
+                      width="14"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M9 1v2h6V1h2v2h4a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4V1zm11 10H4v8h16zm-9 2v4H6v-4zM7 5H4v4h16V5h-3v2h-2V5H9v2H7z"
+                      ></path>
+                    </svg>
+                    <span class="text-xs font-medium"> 2008 - 2013</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- // EDUCATION -->
         </div>
         <!-- // SIDEBAR -->
         <div class="col-span-2">
@@ -277,7 +373,7 @@
                       <div
                         class="flex flex-wrap items-center justify-between gap-2"
                       >
-                        <h3 class="font-medium">Tech Lead</h3>
+                        <h3 class="font-medium">Senior Developer</h3>
                         <span
                           class="inline-flex items-center rounded bg-gray-200 px-2 py-1 text-xs font-medium text-gray-600"
                           >Full-time</span
@@ -371,7 +467,7 @@
                             class="ml-4 mt-1.5 max-w-lg list-disc text-gray-600"
                           >
                             <li>
-                              Split uploaded gazettes for view and download
+                              Split uploaded gazettes for viewing and download
                               based on page range using FPDI
                             </li>
                             <li>
@@ -425,7 +521,7 @@
                                 href="http://thongkevanban.binhduong.gov.vn//widget/web/guest/hien-thi-thong-ke-van-ban/-/NSS_REPORT_DOCUMENT_VIEW_WAR_gwportlet"
                                 >thongkevanban.binhduong.gov.vn</a
                               >
-                              for each tenants
+                              for each tenant
                             </li>
                             <li>
                               Integrate with Google Analytics for real-time and
@@ -450,7 +546,7 @@
                             class="ml-4 mt-1.5 max-w-lg list-disc text-gray-600"
                           >
                             <li>Export documents based on docx templates</li>
-                            <li>Export statistics based on xslx templates</li>
+                            <li>Export statistics based on xlsx templates</li>
                             <li>
                               Design document models with single table
                               inheritance
@@ -513,7 +609,7 @@
                             </li>
                             <li>
                               Propose moving frontend from blade template to
-                              Inertiajs, Vue 3 and TailwindCSS for more
+                              Inertia.js, Vue 3 and TailwindCSS for more
                               interactive design with components.
                             </li>
                           </ul>
@@ -594,17 +690,14 @@
                           >
                         </div>
                       </div>
-                      <!-- <p class="mt-4 max-w-lg text-gray-600">
-                        Maintain company website using Wordpress and WooCommerce
-                      </p> -->
                       <ul class="ml-4 mt-1.5 max-w-lg list-disc text-gray-600">
                         <li>
-                          Maintain company website using Wordpress and
+                          Maintain company website using WordPress and
                           WooCommerce
                         </li>
                         <li>
                           Research wireless IOT platform for check-in using RFID
-                          and LoRaWan based on Arduino platform
+                          and LoRaWAN based on Arduino platform
                         </li>
                       </ul>
                     </div>
@@ -704,92 +797,6 @@
               </div>
             </div>
             <!-- // EXPERIENCE -->
-            <!-- EDUCATION -->
-            <div class="rounded-xl bg-white p-1.5">
-              <h2
-                class="before: flex items-center gap-2.5 px-4 pt-2.5 text-base font-medium before:size-1.5 before:rounded-full before:bg-blue-600"
-              >
-                Education
-              </h2>
-              <div class="mt-4 space-y-1.5">
-                <div
-                  class="rounded-md bg-gray-50 p-4 duration-150 hover:bg-gray-100"
-                >
-                  <div class="flex flex-col gap-4 sm:flex-row">
-                    <img
-                      src="./imgs/uit.png"
-                      alt=""
-                      class="size-12 rounded-full border-2 border-white shadow-sm"
-                    />
-                    <div class="w-full">
-                      <div
-                        class="flex flex-wrap items-center justify-between gap-2"
-                      >
-                        <h3 class="font-medium">
-                          Bachelor of Engineering in Information Systems
-                        </h3>
-                        <!-- <span
-                          class="inline-flex items-center rounded bg-gray-200 px-2 py-1 text-xs font-medium text-gray-600"
-                          >Full-time</span
-                        > -->
-                      </div>
-                      <div
-                        class="mt-1.5 flex flex-wrap items-center gap-x-4 gap-y-2 text-gray-600"
-                      >
-                        <div class="flex flex-wrap gap-x-1.5">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 24 24"
-                            class="size-3.5"
-                            height="14"
-                            width="14"
-                          >
-                            <path
-                              fill="currentColor"
-                              d="M4 11.333L0 9l12-7l12 7v8.5h-2v-7.333l-2 1.166v6.678l-.223.275A9.983 9.983 0 0 1 12 22a9.983 9.983 0 0 1-7.777-3.714L4 18.011zM6 12.5v4.792A7.979 7.979 0 0 0 12 20a7.978 7.978 0 0 0 6-2.708V12.5L12 16zM3.97 9L12 13.685L20.03 9L12 4.315z"
-                            ></path>
-                          </svg>
-                          <span class="text-xs font-medium">UIT</span>
-                        </div>
-                        <div class="flex flex-wrap gap-x-1.5">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 24 24"
-                            class="size-3.5"
-                            height="14"
-                            width="14"
-                          >
-                            <path
-                              fill="currentColor"
-                              d="m12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0zm4.95-7.778a7 7 0 1 0-9.9 0L12 20.9zM12 13a2 2 0 1 1 0-4a2 2 0 0 1 0 4"
-                            ></path>
-                          </svg>
-                          <span class="text-xs font-medium">
-                            Vietnam National University, Ho Chi Minh City
-                          </span>
-                        </div>
-                        <div class="flex flex-wrap gap-x-1.5">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 24 24"
-                            class="size-3.5"
-                            height="14"
-                            width="14"
-                          >
-                            <path
-                              fill="currentColor"
-                              d="M9 1v2h6V1h2v2h4a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4V1zm11 10H4v8h16zm-9 2v4H6v-4zM7 5H4v4h16V5h-3v2h-2V5H9v2H7z"
-                            ></path>
-                          </svg>
-                          <span class="text-xs font-medium"> 2008 - 2013</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- // EDUCATION -->
           </main>
         </div>
       </div>
@@ -807,6 +814,7 @@
       // pagebreak: { mode: "avoid-all" },
       jsPDF: { format: [width, height], unit: "px" },
       filename: "CV.pdf",
+      hotfixes: ["px_scaling"],
     };
 
     downloadBtn.addEventListener("click", function () {
