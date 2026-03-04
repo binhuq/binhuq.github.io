@@ -1,0 +1,67 @@
+<!doctype html>
+
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Tra cứu điểm bầu cử - Phường Dĩ An</title>
+    <!-- Tailwind CSS v3 CDN -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <style data-purpose="custom-theme">
+      :root {
+        --vn-red: #da251d;
+        --vn-yellow: #ffff00;
+      }
+      .bg-vn-red {
+        background-color: var(--vn-red);
+      }
+      .text-vn-red {
+        color: var(--vn-red);
+      }
+      .border-vn-red {
+        border-color: var(--vn-red);
+      }
+      .bg-vn-yellow {
+        background-color: var(--vn-yellow);
+      }
+
+      /* Smooth transition for result appearance */
+      #result-container {
+        transition: all 0.3s ease-in-out;
+      }
+    </style>
+  </head>
+  <body class="min-h-screen bg-gray-50 pb-12 font-sans text-gray-900">
+    <!-- END: MainHeader -->
+    <main class="h-screen w-screen">
+      <!-- BEGIN: SelectionArea -->
+      <iframe
+        class="h-full w-full"
+        src="https://www.google.com/maps/d/embed?mid=1QEdI07G9dG1oWAZaJrFSI-NuGOA7XJg&ehbc=2E312F"
+        width="640"
+        height="480"
+      ></iframe>
+    </main>
+    <!-- BEGIN: MainFooter -->
+
+    <!-- END: MainFooter -->
+    <script data-purpose="ui-logic">
+      // Simple script to toggle results visibility for demo purposes
+      document
+        .getElementById("search-btn")
+        .addEventListener("click", function () {
+          const ward = document.getElementById("ward-select").value;
+          const unit = document.getElementById("unit-select").value;
+
+          if (ward && unit) {
+            const result = document.getElementById("result-container");
+            result.classList.remove("hidden");
+            // Scroll to result
+            result.scrollIntoView({ behavior: "smooth", block: "center" });
+          } else {
+            alert("Vui lòng chọn đầy đủ Khu phố và Tổ bầu cử");
+          }
+        });
+    </script>
+  </body>
+</html>
