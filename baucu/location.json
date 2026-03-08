@@ -1,0 +1,879 @@
+{
+	"kml": {
+		"Document": {
+			"name": "BẢN ĐỒ KHU VỰC BỎ PHIẾU BẦU CỬ PHƯỜNG DĨ AN",
+			"description": "BẢN ĐỒ KHU VỰC BỎ PHIẾU BẦU CỬ",
+			"Style": [
+				{
+					"IconStyle": {
+						"scale": "1.1",
+						"Icon": {
+							"href": "images/icon-1.png"
+						}
+					},
+					"LabelStyle": {
+						"scale": "0"
+					},
+					"_id": "icon-ci-1-normal"
+				},
+				{
+					"IconStyle": {
+						"scale": "1.1",
+						"Icon": {
+							"href": "images/icon-1.png"
+						}
+					},
+					"LabelStyle": {
+						"scale": "1.1"
+					},
+					"_id": "icon-ci-1-highlight"
+				}
+			],
+			"StyleMap": {
+				"Pair": [
+					{
+						"key": "normal",
+						"styleUrl": "#icon-ci-1-normal"
+					},
+					{
+						"key": "highlight",
+						"styleUrl": "#icon-ci-1-highlight"
+					}
+				],
+				"_id": "icon-ci-1"
+			},
+			"Folder": [
+				{
+					"name": "Đơn vị bầu cử số  1",
+					"Placemark": [
+						{
+							"name": "Tổ bầu cử 1 - Đông Tác",
+							"description": "Dãy A Đình Thần Đông Tác",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7793061,10.9080368,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 2 - Đông Tác",
+							"description": "Dãy B Đình Đông Tác",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7795851,10.9080473,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 3 - Đông Tác",
+							"description": "VP. Khu phố Đông Tác",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7776231,10.9080769,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 4 - Bình Minh 1",
+							"description": "VP. BĐH Khu phố Bình Minh 1",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7696991,10.9078356,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 5 - Bình Minh 1",
+							"description": "Trụ sở Công an phường Dĩ An cũ<br>01 Nguyễn Thái Học",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7710733,10.9055051,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 6 - Bình Minh 2",
+							"description": "VP. BĐH Khu phố Bình Minh 1",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7680022,10.904187,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 7 - Bình Minh 2",
+							"description": "Trung tâm giới thiệu việc làm",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7673247,10.9014556,0"
+							}
+						}
+					]
+				},
+				{
+					"name": "Đơn vị bầu cử số 2",
+					"Placemark": [
+						{
+							"name": "Tổ bầu cử 8 - Đông Tân",
+							"description": "Nhà cô Nguyễn Thị Lợi<br>Số nhà 827 DT 743 ",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7536037,10.9112009,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 9 - Đông Tân",
+							"description": "Văn phòng khu phố cũ đường Nguyễn Du<br>153 đường Nguyễn Du",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.762644,10.9114186,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 10 - Đông Tân",
+							"description": "Văn phòng khu phố Đông Tân",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7647733,10.9141987,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 11 - Đông Tân",
+							"description": "Trường tiểu học Dĩ An",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7694774,10.9114007,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 12 - Đông Tân",
+							"description": "Trường tiểu học Dĩ An B",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7700944,10.9113138,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 13 - Thắng lợi 1",
+							"description": "VP khu phố Thắng lợi 1",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7667258,10.9080699,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 14 - Thắng lợi 1",
+							"description": "Chùa Kim Thiền",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7648468,10.9094379,0"
+							}
+						}
+					]
+				},
+				{
+					"name": "Đơn vị bầu cử số 3",
+					"Placemark": [
+						{
+							"name": "Tổ bầu cử 15 - Đông Chiêu",
+							"description": "Trường THCS Đông Chiêu",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7637748,10.9185847,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 16 - Đông Chiêu",
+							"description": "Trường THCS Đông Chiêu",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7638392,10.9186848,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 17 - Đông Chiêu",
+							"description": "Văn phòng khu phố Đông Chiêu - Đông Chiêu",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7617656,10.9214637,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 18 - Đông Chiêu",
+							"description": "Văn phòng khu phố Đông Chiêu",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7619399,10.9214374,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 19 - Đông Chiêu",
+							"description": "Trường THCS Tân Đông Hiệp",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7610371,10.9264981,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 20 - Đông Chiêu A",
+							"description": "Chùa Tân Hòa",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7589574,10.9122471,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 21 - Đông Chiêu A",
+							"description": "Chùa Tân Hòa",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.758893,10.9121312,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 22 - Đông Chiêu A",
+							"description": "Trường Mầm non Hoàng Anh (Hoa Điểm Mười)",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7576396,10.9176472,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 23 - Đông Chiêu A",
+							"description": "Trường mầm non Chim Én Mùa Xuân",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7575137,10.9138872,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 24 - Đông Chiêu A",
+							"description": "Cà phê CAKOI<br>số 248 Đoàn Thị Kia",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7535882,10.9166495,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 25 - Đông Chiêu A",
+							"description": "VP. Khu phố Đông Chiêu A<br>344 Nguyễn Thị Minh Khai",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7552672,10.9212852,0"
+							}
+						}
+					]
+				},
+				{
+					"name": "Đơn vị bầu cử số 4",
+					"Placemark": [
+						{
+							"name": "Tổ bầu cử 26 - Bình Đường 1",
+							"description": "Căn tin Nhựa Bình Minh",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7530739,10.8832235,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 27 - Bình Đường 1",
+							"description": "Văn phòng khu phố Bình Đường 1",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7567253,10.8848539,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 28 - Bình Đường 1",
+							"description": "Chốt dân quân khu phố Bình Đường 1",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7615266,10.8792152,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 29 - Bình Đường 1",
+							"description": "Nhà bà Nguyễn thị Hiệp<br>126 Lê Văn Tách",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7597264,10.8777347,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 30 - Bình Đường 1",
+							"description": "Trường Tiểu học An Bình",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.757429,10.8761347,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 31 - Bình Đường 4",
+							"description": "Văn phòng Khu phố<br>Tổ 72, KP. Bình Đường 4",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7578862,10.889327,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 32 - Bình Đường 4",
+							"description": "Cà phê Linh<br>Tổ 54, KP. Bình Đường 4",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7572819,10.8858561,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 33 - Bình Đường 4",
+							"description": "Quán dê núi Vĩnh Lộc",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7594879,10.8889374,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 34 - Bình Đường 4",
+							"description": "Công ty Á Châu<br>435 Nguyễn Tri Phương",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7598041,10.887818,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 35 - Bình Đường 4",
+							"description": "Trường mầm non Thảo Hiền",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7601932,10.8841813,0"
+							}
+						}
+					]
+				},
+				{
+					"name": "Đơn vị bầu cử số 5",
+					"Placemark": [
+						{
+							"name": "Tổ bầu cử 36 - Bình Đường 2",
+							"description": "Văn phòng KP. Bình Đường 2 cũ",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7601708,10.8717452,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 37 - Bình Đường 2",
+							"description": "Văn phòng KP. Bình Đường 2 mới<br>Đường số 2, Hương Sen",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7549705,10.8729097,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 38 - Bình Đường 2",
+							"description": "UBND phường An Bình cũ",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7575919,10.8713968,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 39 - Bình Đường 2",
+							"description": "Trạm Y TẾ",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7553802,10.8740298,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 40 - Bình Đường 2",
+							"description": "Chung cư Opal",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7620354,10.869384,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 41 - Bình Đường 2",
+							"description": "Chung cư Phú Đông Premier",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7566006,10.870829,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 42 - Bình Đường 2",
+							"description": "Trươờng THCS An Bình",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7557631,10.8732633,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 43 - Bình Đường 3",
+							"description": "Sân Thể Thao Tổ 4A Đường Đỗ Mười",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7515519,10.8751552,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 44 - Bình Đường 3",
+							"description": "Chung Cư Sen Hồng<br>Phòng sinh hoạt cộng đồng Block B&C",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7502973,10.8743336,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 45 - Bình Đường 3",
+							"description": "Văn Phòng Khu Phố Bình Đường 3",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7500915,10.8711753,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 46 - Bình Đường 3",
+							"description": "Nhà Văn Hóa",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.749017,10.8676241,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 47 - Bình Đường 3",
+							"description": "Trường mầm non Sơn Ca",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7541861,10.8728347,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 48 - Bình Đường 3",
+							"description": "Khu dân cư + Chung cư Him Lam Phú Đông<br>Sàn giao dịch của chung cư",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7549331,10.8674187,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 49 - Bình Đường 3",
+							"description": "Chung cư Sen Hồng<br>Phòng sinh hoạt cộng đồng của Block A",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7509772,10.8741756,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 50 - Bình Đường 3",
+							"description": "nhà ông Lê Tùng Long, tổ trưởng tổ 16<br>14/1 Tổ 16",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7529154,10.865133,0"
+							}
+						}
+					]
+				},
+				{
+					"name": "Đơn vị bầu cử số 6",
+					"Placemark": [
+						{
+							"name": "Tổ bầu cử 51 - Nhị Đồng 1",
+							"description": "VP KP Nhị Đồng 1",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7573449,10.9023413,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 52 - Nhị Đồng 1",
+							"description": "Nhà bà Phạm Thị Phượng<br>Nhà số 60, Đường sốp 3, Nhị Đồng 1",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7583907,10.9040478,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 53 - Nhị Đồng 1",
+							"description": "Nhà bà Đinh Thị Nga<br>87 Đường 21",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7599647,10.9005375,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 54 - Nhị Đồng 1",
+							"description": "Nhà xe chung cư Hoàng Long",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7496707,10.8769511,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 55 - Nhị Đồng 2",
+							"description": "Trường tiểu học Nhị Đồng (phòng 1.1)",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7673466,10.8990173,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 56 - Nhị Đồng 2",
+							"description": "Trường tiểu học Nhị Đồng (phòng 1.3)",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7670783,10.8990331,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 57 - Nhị Đồng 2",
+							"description": "Trường tiểu học Nhị Đồng  (phòng 1.4)",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7670569,10.8987803,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 58 - Nhị Đồng 2",
+							"description": "Trường tiểu học Nhị Đồng (phòng 1.8)",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7674217,10.8987434,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 59 - Thắng Lợi 2",
+							"description": "Trường TH Lê Quí Đôn",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7650686,10.9064769,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 60 - Thắng Lợi 2",
+							"description": "Trường TH Lê Quí Đôn",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7653168,10.9064743,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 61 - Thắng Lợi 2",
+							"description": "Trường TH Lê Quí Đôn",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7653167,10.9063636,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 62 - Thắng Lợi 2",
+							"description": "Trường TH Lê Quí Đôn",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7650806,10.9063453,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 63 - Thắng Lợi 2",
+							"description": "Trường TH Lê Quí Đôn",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.765192,10.9063426,0"
+							}
+						}
+					]
+				},
+				{
+					"name": "Đơn vị bầu cử số 7",
+					"Placemark": [
+						{
+							"name": "Tổ bầu cử 64 - Thống Nhất 1",
+							"description": "Văn phòng BĐH KP. Thống Nhất",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7529745,10.9061099,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 65 - Thống Nhất 1",
+							"description": "Trường TH Dĩ An C",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7534142,10.9078326,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 66 - Thống Nhất 1",
+							"description": "Trường TH Dĩ An C",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7535743,10.907832,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 67 - Thống Nhất 1",
+							"description": "Trường MN Hoa Thủy Tiên<br>82 Phạm Hữu Lầu",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7523154,10.9165521,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 68 - Thống Nhất 1",
+							"description": "Trường MN Họa Mi",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7542952,10.9055669,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 69 - Thống Nhất 1",
+							"description": "Trường MN Bé Yêu",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7516422,10.9093197,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 70 - Thống Nhất 1",
+							"description": "Trường MN Nụ Cười Xinh",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7458248,10.9041828,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 71 - Thống Nhất 1",
+							"description": "Chung cư Cham",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7423922,10.908629,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 72 - Thống Nhất 1",
+							"description": "Chung cư Bcons Garden",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7533984,10.906865,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 73 - Thống Nhất 1",
+							"description": "Chung cư Phúc An",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7444448,10.9058357,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 74 - Thống Nhất 2",
+							"description": "Cụm Văn Hóa -TDTT KP Thống Nhất 2",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7482068,10.9009948,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 75 - Thống Nhất 2",
+							"description": "Cụm Văn Hóa -TDTT KP Thống Nhất 2",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.748306,10.901,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 76 - Thống Nhất 2",
+							"description": "Văn phòng KP Thống Nhất 2",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7478418,10.9005489,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 77 - Thống Nhất 2",
+							"description": "Nhà ông Lê Văn Bực<br>398/28 đường Nguyễn Đức Thiệu, kp Thống Nhất 2 ",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7455244,10.9015366,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 78 - Thống Nhất 2",
+							"description": "Khu trọ Trường Cao Đẳng Nghề 22<br>Đường số 10, Quân đoàn 4 Thống Nhất 2",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7462761,10.8869486,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 79 - Thống Nhất 2",
+							"description": "Trường Mầm Non Hoa Ban Mai<br>Khu nhà công vụ Quân Đoàn 4, kp Thống Nhất 2",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7430849,10.8812188,0"
+							}
+						}
+					]
+				},
+				{
+					"name": "Đơn vị bầu cử số 8",
+					"Placemark": [
+						{
+							"name": "Tổ bầu cử 80 - Chiêu Liêu",
+							"description": "Trường MN Hoa Hướng Dương",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7578566,10.9258998,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 81 - Chiêu Liêu",
+							"description": "Hộ ông Lê Viết Thảo<br>Lê Thị Út, Tổ 9, KP. Chiêu Liêu",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7555114,10.9273951,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 82 - Chiêu Liêu",
+							"description": "Hộ bà Đặng Thị Lanh<br>375 Nguyễn Thị Minh Khai, Tổ 15, KP. Chiêu Liêu",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7550563,10.9225766,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 83 - Chiêu Liêu",
+							"description": "Hộ ông Nguyễn Hữu Minh<br>54/1 Nguyễn Thị Khắp, Tổ 29, KP. Chiêu Liêu",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.752844,10.9235326,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 84 - Chiêu Liêu",
+							"description": "Hộ ông Lê Minh Tuấn<br>101 Nguyễn Thị Khắp, Tổ 21, KP. Chiêu Liêu",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7508753,10.9235326,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 85 - Chiêu Liêu",
+							"description": "VP. BĐH khu phố Chiêu Liêu",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7499219,10.9263967,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 86 - Chiêu Liêu A",
+							"description": "Khu liên hiệp Hoa Sen<br>Tổ 2 ĐT 743C",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7489009,10.9253549,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 87 - Chiêu Liêu A",
+							"description": "Trường Mầm Non Ngôi Nhà Mơ Ước",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7485198,10.9288783,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 88 - Chiêu Liêu A",
+							"description": "Khu nhà ở Phú Hồng Thịnh<br>Khu Kính nổi",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7493665,10.9311187,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 89 - Chiêu Liêu A",
+							"description": "Khu nhà ở Phú Hồng Thịnh<br>Khu Kính nổi",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.748081,10.9327266,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 90 - Tân Long",
+							"description": "Trường MN Ngôi Sao Xanh",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7464574,10.9109878,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 91 - Tân Long",
+							"description": "Chung cư Thạnh Tân<br>hẻm 925- đường DT743 A",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7482101,10.9138517,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 92 - Tân Long",
+							"description": "Chung cư Lê Phong<br>979-duong DT743A",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7463816,10.9167829,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 93 - Tân Long",
+							"description": "Trường MN Hoa Tân Nhã",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7480254,10.9167127,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 94 - Tân Long",
+							"description": "Mẫu giáo Happy Home",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7515062,10.9192623,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 95 - Tân Long",
+							"description": "Văn phòng kp Tân Long",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7525086,10.9163088,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử 96 - Tân Long",
+							"description": "Đình thần Tân Long",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7535724,10.915205,0"
+							}
+						}
+					]
+				},
+				{
+					"name": "Đơn vị vũ trang  nhân dân",
+					"Placemark": [
+						{
+							"name": "Tổ bầu cử số 97",
+							"description": "Bệnh viện Quân Y 4",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7399695,10.8898115,0"
+							}
+						},
+						{
+							"name": "Tổ bầu cử số 98",
+							"description": "Tiểu Đoàn 36, Lữ <br>Đoàn 596",
+							"styleUrl": "#icon-ci-1",
+							"Point": {
+								"coordinates": "106.7410364,10.8927428,0"
+							}
+						}
+					]
+				}
+			]
+		},
+		"_xmlns": "http://www.opengis.net/kml/2.2"
+	}
+}
